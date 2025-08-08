@@ -6,10 +6,8 @@ class Solution(object):
         """
         digits=str(digits)
         digits=digits.replace(" ","").replace(",","").replace("[","").replace("]","")
-        digits=int(digits)+1
+        digits=int(digits)
+        digits=digits+1
         digits=str(digits)
-        digits=[int(digit)for digit in digits]
+        digits=[int(digit) for digit in digits]
         return digits
-
-
-
