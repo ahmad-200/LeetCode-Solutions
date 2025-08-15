@@ -8,8 +8,7 @@ class Solution(object):
         for i in range(len(nums)):
          if nums[i]>nums[max]:
             max=i
-        else :
-            pass
+        
 
         for i in range(len(nums)):
             if i==max:
