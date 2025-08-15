@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        max=0
+        max=1
         for i in range(len(nums)):
          if nums[i]>nums[max]:
             max=i
